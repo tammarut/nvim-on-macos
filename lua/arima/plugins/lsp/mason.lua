@@ -39,5 +39,6 @@ mason_null_ls.setup({
   },
   -- Auto-install configured Formatters & Linters (with null-ls)
   automatic_installation = true,
+  automatic_setup = true, -- Recommended, but optional
 })
 
